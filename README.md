@@ -54,16 +54,14 @@ Note: Tkinter is bundled with most Python installations. For Linux, you might ne
 Required Python Packages:
 Install the following packages using pip:
 
-bash
-Copy
+
 pip install pandas matplotlib numpy
 The standard libraries (tkinter, csv, datetime, and calendar) are included with Python.
 
 Installation & Setup
 Clone the Repository:
 
-bash
-Copy
+
 git clone git@github.com:Harshith-123/Employee-management-system.git
 cd Employee-management-system
 Project Files:
@@ -81,20 +79,16 @@ leaves.csv – Leave records (will be created automatically if not present).
 
 (Optional) Create a Virtual Environment:
 
-bash
-Copy
+
 python -m venv venv
 Activate the virtual environment:
 
 Windows:
 
-bash
-Copy
+
 venv\Scripts\activate
 macOS/Linux:
 
-bash
-Copy
 source venv/bin/activate
 Running the Application
 You can run the application using your terminal or via Visual Studio Code:
@@ -104,8 +98,7 @@ Open your terminal in the project directory.
 
 Run the main script:
 
-bash
-Copy
+
 python ELMS_CSV.py
 Using Visual Studio Code
 Open the Project Folder:
@@ -117,8 +110,7 @@ Open the integrated terminal (Ctrl+` ).
 
 Run:
 
-bash
-Copy
+
 python ELMS_CSV.py
 Alternatively, set up a VS Code launch configuration to run and debug the application.
 
@@ -170,13 +162,11 @@ Fork the repository.
 
 Create a feature branch:
 
-bash
-Copy
+
 git checkout -b feature/YourFeature
 Commit your changes:
 
-bash
-Copy
+
 git commit -am 'Add new feature'
 Push to your branch:
 
